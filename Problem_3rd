@@ -1,0 +1,11 @@
+# Input the cost price of the item
+cost_price = float(input("Enter the cost price of the item: "))
+
+# Calculate the discount (20% of the cost price)
+discount = cost_price * 0.20
+
+# Calculate the total price after applying the discount
+total_price = cost_price - discount
+
+# Print the total price
+print("The total price after applying 20% discount is:", total_price)
